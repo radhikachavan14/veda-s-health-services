@@ -1,0 +1,278 @@
+<?php
+include( 'conn.php' );
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Veda's Health Service | Emergency Blood Supply </title>
+<meta content="" name="description">
+<meta content="" name="keywords">
+
+<!-- Favicons -->
+<link href="assets/img/filogo.png" rel="icon">
+<link href="assets/img/filogo.png" rel="apple-touch-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+
+<!-- ======================================================= -->
+
+</head>
+
+<body>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+  <div class="container d-flex align-items-center"> 
+    <a href="index.html" class="logo me-auto"><img src="assets/img/logo1.jpg" alt="Vedas Help" class="img-fluid"></a>
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a  href="emergency.html">Emergency</a></li>
+        <li><a href="hospital.html">Hospitals</a></li>
+        <li><a class="active" href="blood_bank.html">Blood Banks</a></li>
+        <li><a href="Medical.html">Medicals</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i> </nav>
+    <!-- .navbar --> 
+  <a href="emergency.html" class="get-started-btn">Get help</a> </div>
+</header>
+<!-- End Header -->
+<div class="breadcrumbs aos-init aos-animate" data-aos="fade-in">
+  <div class="container">
+    <h2>Blood Bank Of Washim</h2>
+  </div>
+</div>
+<!-- ======= Blood Section ======= -->
+<section id="popular-courses" class="courses">
+  <div class="container" data-aos="fade-up">
+    <div class="row" data-aos="zoom-in" data-aos-delay="100">
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="course-item"> <img src="assets/img/b1.jpeg" class="img-fluid" alt="Shri Gajanan Blood Centre">
+          <div class="course-content">
+            <h3>Shri Gajanan Blood Centre</h3>
+            <p>
+            <li><i class="bi bi-geo-alt"></i> Patni chowk Washim</li>
+            <li><i class="bi bi-telephone"></i> Phone:7947110159</li>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- End Course Item-->
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+        <div class="course-item"> <img src="assets/img/22.jpeg" class="img-fluid" alt="Reynolds Memorial Hospital">
+          <div class="course-content">
+            <h3>Reynolds Memorial Hospital</h3>
+            <p>
+            <li><i class="bi bi-geo-alt"></i> Pusad Naka, Washim, Maharashtra 444505 </li>
+            <li><i class="bi bi-telephone"></i> Phone: 07252-232056 </li>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+        <div class="course-item"> <img src="assets/img/b2.jpg" class="img-fluid" alt="Sau Kantadevi Dale Blood Bank">
+          <div class="course-content">
+            <h3>Sau Kantadevi Dale Blood Bank</h3>
+            <p>
+            <li><i class="bi bi-geo-alt"></i>Above Shree Chaturbhuj Pathology, Washim </li>
+            <li><i class="bi bi-telephone"></i>Phone: 07252-232056 </li>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End blood Section --> 
+<!----------------------------------------------------------------------->
+
+<!--div class="container" data-aos="fade-up">
+  <div class="row" data-aos="zoom-in" data-aos-delay="100">
+    <div class="container">
+      <div class="row">
+        <div class="block">
+          <div class="section-title">
+            <h1>Availability Of Blood</h1>
+          </div>
+          <table class="table">
+            <thead>
+              <tr>
+                <th width="7%" scope="col">Sr.no</th>
+                <th width="26%" scope="col">Blood Bank Info</th>
+                <th width="12%" scope="col">Availability</th>
+                <th Width="55" colspan="8" align="center">Type</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Shri Gajanan Blood Centre<br>
+                  Patni chowk Washim<br>
+                  7947110159<br></td>
+                <td>Available</td>
+                <td width="7%">O-<br>
+                  <i class="bi bi-x" style="color: #ff1a1a;"></i></td>
+                <td width="10%">O+<br>
+                  <i class="bi bi-check2" style="color:#00ff00"></i></td>
+                <td width="7%">A+<br>
+                  <i class="bi bi-check2" style="color:#00ff00"></i></td>
+                <td width="8%">A-<br>
+                  <i class="bi bi-x " style="color: #ff1a1a;"></i></td>
+                <td width="9%">B+<br>
+                  <i class="bi bi-check2" style="color:#00ff00"></i></td>
+                <td width="8%">B-<br>
+                  <i class="bi bi-x " style="color: #ff1a1a;"></i></td>
+                <td width="6%">AB+<br>
+                  <i class="bi bi-check2" style="color:#00ff00"></i></td>
+                <td width="6%">AB-<br>
+                  <i class="bi bi-x" style="color: #ff1a1a;"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Sau Kantadevi Dale Blood Bank<br>
+                  Pusad Naka, Washim<br>
+                  7947103008</td>
+                <td>Available</td>
+                <td width="7%">O-<br>
+                  <i class="bi bi-x" style="color: #ff1a1a;"></i></td>
+                <td width="10%">O+<br>
+                  <i class="bi bi-check2" style="color:#00ff00"></i></td>
+                <td width="7%">A+<br>
+                  <i class="bi bi-check2" style="color:#00ff00"></i></td>
+                <td width="8%">A-<br>
+                  <i class="bi bi-check2" style="color:#00ff00" ></i></td>
+                <td width="9%">B+<br>
+                  <i class="bi bi-check2" style="color:#00ff00"></i></td>
+                <td width="8%">B-<br>
+                  <i class="bi bi-x "  style="color: #ff1a1a;"></i></td>
+                <td width="6%">AB+<br>
+                  <i class="bi bi-x " style="color: #ff1a1a;"></i></td>
+                <td width="6%">AB-<br>
+                  <i class="bi bi-check2" style="color:#00ff00"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Reynolds Memorial Hospital Blood Bank<br>
+                  Pusad road, Washim<br>
+                  07252-232056</td>
+                <td>Available</td>
+                <td width="7%">O-<br>
+                  <i class="bi bi-x " style="color: #ff1a1a;"></i></td>
+                <td width="10%">O+<br>
+                  <i class="bi bi-check2" style="color:#00ff00"></i></td>
+                <td width="7%">A+<br>
+                  <i class="bi bi-x" style="color: #ff1a1a;"></i></td>
+                <td width="8%">A-<br>
+                  <i class="bi bi-x " style="color: #ff1a1a;"></i></td>
+                <td width="9%">B+<br>
+                  <i class="bi bi-check2" style="color:#00ff00"></i></td>
+                <td width="8%">B-<br>
+                  <i class="bi bi-x" style="color: #ff1a1a;"></i></td>
+                <td width="6%">AB+<br>
+                  <i class="bi bi-check2" style="color:#00ff00"></i></td>
+                <td width="6%">AB-<br>
+                  <i class="bi bi-check2" style="color:#00ff00"></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!----->
+<div class="container">
+  <div class="row">
+    <div class="block">
+      <div class="section-title">
+        <h1 class="mt-5">Why to donate ?</h1>
+      </div>
+      <p>Every drop of blood donated is truly a gift of life. Just a single donation can help multiple patients, and it can make the difference between life and death for someone in need. Your one act of kindness can have a ripple effect, touching the lives of not just the recipient but their families and communities as well.</p>
+      <br>
+      <p>Blood is essential to help patients survive surgeries, cancer treatment, chronic illnesses, and traumatic injuries. This lifesaving care starts with one person making a generous donation. The need for blood is constant. But only about 3% of age-eligible people donate blood yearly.</p>
+    </div>
+  </div>
+</div>
+<!--------------------------------B1-------------------------------------->
+<div class="container" data-aos="fade-up">
+  <div class="row" data-aos="zoom-in" data-aos-delay="100">
+    <div class="container">
+      <div class="row">
+        <div class="block">
+            <h1>Shri Gajanan Blood Centre</h1>
+          <table class="table">
+            <thead>
+              <tr>
+                <th width="7%" scope="col">-O</th>
+                <th width="7%" scope="col">+O</th>
+				 <th width="7%" scope="col">-A</th>
+                <th width="7%" scope="col">+A</th>
+				  <th width="7%" scope="col">-B</th>
+                <th width="7%" scope="col">+B</th>
+				  <th width="7%" scope="col">-AB</th>
+                <th width="7%" scope="col">+AB</th>
+              </tr>
+            </thead>
+            <tbody>
+			      <?php
+    include( 'conn.php' );
+    $query = mysqli_query( $conn, "select * from B1T1" );
+    $sn = 0;
+    while ( $row = mysqli_fetch_array( $query ) ) {
+      ?>
+  <tr>
+    <td><?php echo $row['-O']; ?></td>
+    <td><?php echo $row['+O']; ?></td>
+    <td><?php echo $row['-A']; ?></td>
+    <td><?php echo $row['+A']; ?></td>
+    <td><?php echo $row['-B']; ?></td>
+    <td><?php echo $row['+B']; ?></td>
+    <td><?php echo $row['-AB']; ?></td>
+	<td><?php echo $row['+AB']; ?></td>
+  </tr>
+  <?php
+  }
+  ?>
+			  </tbody>
+				</div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<footer id="footer">
+  <div class="container d-md-flex py-4">
+    <div class="me-md-auto text-center text-md-start">
+      <div class="copyright"> &copy; Copyright <strong><span>VEDA'S HEALTH SERVICS</span></strong>. All Rights Reserved </div>
+      <div class="credits"> Designed by Shalimar Kathade</div>
+    </div>
+    <div class="social-links text-center text-md-right pt-3 pt-md-0"> <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> </div>
+  </div>
+</footer>
+<!-- End Footer -->
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> 
+
+<!-- Vendor JS Files --> 
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script> 
+<script src="assets/vendor/aos/aos.js"></script> 
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script> 
+<script src="assets/vendor/php-email-form/validate.js"></script> 
+
+<!--  Main JS File --> 
+<script src="assets/js/main.js"></script>
+</body>
+</html>
